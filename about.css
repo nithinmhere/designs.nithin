@@ -1,0 +1,153 @@
+/* -----------------------about section--------------------------- */
+
+.about {
+    width: 100%;
+    height: 650px;
+    padding: 50px 0;
+
+    font-family: "Big Shoulders Text", sans-serif;
+}
+
+.about h1 {
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: 80px;
+}
+
+
+.about-container {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    margin-bottom: 10px;
+    background-color: #0c0c0c;
+}
+
+.left-about,
+.right-about {
+    width: 40%;
+    height: 150px;
+}
+
+.left-about h3,
+.right-about h3 {
+    color: #f1f1f1;
+    font-weight: 300;
+    letter-spacing: 2px;
+    line-height: 150%;
+}
+
+.tools-container {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+
+}
+
+.tools-container .icons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+}
+
+.tools-container .icons h6 {
+    color: #ffffff;
+    text-align: center;
+    letter-spacing: 2px;
+    font-weight: 300;
+}
+
+.tools-container .icons img {
+    /* width: 60px; */
+    height: 45px;
+    object-fit: contain;
+}
+
+
+/*---------- mobile screen css --------------------------------------*/
+@media only screen and (max-width: 600px){
+    .about {
+        width: 100%;
+        height: 1100px;
+        padding: 50px 0;
+
+        font-family: "Big Shoulders Text", sans-serif;
+    }
+    
+    .about h1 {
+        color: #ffffff;
+        text-align: center;
+        margin-bottom: 40px;
+        margin-top: 80px;
+    }
+    
+    
+    .about-container {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 200px;
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        justify-content: center;
+
+        background-color: #0c0c0c;
+    }
+    
+    .left-about,
+    .right-about {
+        width: 90%;
+        height: 150px;
+        margin: 0 auto;
+    }
+    
+    .left-about h3,
+    .right-about h3 {
+        color: #f1f1f1;
+        font-weight: 300;
+        letter-spacing: 2px;
+        line-height: 150%;
+        margin-left: 5vw;
+    }
+    
+    .tools-container {
+        width: 90%;
+        height: auto;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 40px;
+        overflow-x: hidden;
+    }
+    
+    .tools-container .icons {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        justify-content: center;
+    }
+    
+    .tools-container .icons h6 {
+        color: #ffffff;
+        text-align: center;
+        letter-spacing: 2px;
+        font-weight: 300;
+    }
+    
+    .tools-container .icons img {
+        /* width: 60px; */
+        height: 30px;
+        object-fit: contain;
+    }
+}

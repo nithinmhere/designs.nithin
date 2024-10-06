@@ -1,0 +1,182 @@
+
+
+@media only screen and (min-width: 760px) {
+    .footer {
+        width: 100%;
+        height: auto;
+        font-family: "Big Shoulders Text", sans-serif;
+
+    }
+
+    .footer h1 {
+        text-align: center;
+        color: #ffffff;
+        margin-bottom: 30px;
+    }
+
+    .footer a {
+        color: #ffffff;
+        text-decoration: none;
+
+    }
+
+    .footer h3 {
+        text-align: center;
+        background: linear-gradient(to right, #53B5FB, #1AFF4C);
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+    }
+
+
+    .footer-bottom {
+        width: 75vw;
+        margin: 100px auto;
+        display: flex;
+        justify-content: space-between;
+
+    }
+
+    .left-footer a {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        letter-spacing: 1px;
+    }
+    .left-footer a:hover{
+        background: linear-gradient(to right, #53B5FB, #1AFF4C);
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+    }
+    .right-footer{
+        display: flex;
+        gap: 20px;
+    }
+    .right-footer a:hover{
+        background: linear-gradient(to right, #53B5FB, #1AFF4C);
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+    }
+}
+
+
+
+
+@media only screen and (max-width: 759px) {
+    .footer {
+        width: 100%;
+        height: auto;
+        font-family: "Big Shoulders Text", sans-serif;
+
+    }
+
+    .footer h1 {
+        text-align: center;
+        color: #ffffff;
+        margin-bottom: 30px;
+    }
+
+    .footer a {
+        color: #ffffff;
+        text-decoration: none;
+
+    }
+
+    .footer h3 {
+        text-align: center;
+        background: linear-gradient(to right, #53B5FB, #1AFF4C);
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+    }
+
+
+    .footer-bottom {
+        width: 75vw;
+        margin: 100px auto;
+        display: flex;
+        justify-content: space-between;
+
+    }
+
+    .left-footer a {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        letter-spacing: 1px;
+    }
+    .left-footer a:hover{
+        background: linear-gradient(to right, #53B5FB, #1AFF4C);
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+    }
+    .right-footer{
+        display: flex;
+        gap: 20px;
+    }
+    .right-footer a:hover{
+        background: linear-gradient(to right, #53B5FB, #1AFF4C);
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+    }
+}
+
+
+
+@media only screen and (max-width: 420px) {
+    .footer {
+        width: 100%;
+        height: auto;
+        font-family: "Big Shoulders Text", sans-serif;
+
+    }
+
+    .footer h1 {
+        text-align: center;
+        color: #ffffff;
+        margin-bottom: 30px;
+    }
+
+    .footer a {
+        color: #ffffff;
+        text-decoration: none;
+
+    }
+
+    .footer h3 {
+        text-align: center;
+        background: linear-gradient(to right, #53B5FB, #1AFF4C);
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+    }
+
+
+    .footer-bottom {
+        width: 75vw;
+        margin: 100px auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 20px;
+         flex-direction: column;
+    }
+
+    .left-footer a {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        letter-spacing: 1px;
+    }
+    .left-footer a:hover{
+        background: linear-gradient(to right, #53B5FB, #1AFF4C);
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+    }
+    .right-footer{
+        display: flex;
+        gap: 20px;
+    }
+    .right-footer a:hover{
+        background: linear-gradient(to right, #53B5FB, #1AFF4C);
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+    }
+}

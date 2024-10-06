@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Big+Shoulders+Stencil+Text:wght@100..900&family=Big+Shoulders+Text:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Aguafina+Script&family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Big+Shoulders+Stencil+Text:wght@100..900&family=Big+Shoulders+Text:wght@100..900&family=Bilbo+Swash+Caps&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Aguafina+Script&family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Big+Shoulders+Stencil+Text:wght@100..900&family=Big+Shoulders+Text:wght@100..900&family=Bilbo+Swash+Caps&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Orbitron:wght@400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Text:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Big+Shoulders+Stencil+Text:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Big+Shoulders+Stencil+Text:wght@100..900&family=Big+Shoulders+Text:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    background-color: #0c0c0c;
+    font-family: "Poppins", sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body::-webkit-scrollbar {
+    width: 5px;
+}
+
+body::-webkit-scrollbar-track {
+    background: #0c0c0c;
+}
+
+body::-webkit-scrollbar-thumb {
+    background: #2e2e2e;
+    border-radius: 20px;
+}
+
+.works {
+    width: 100%;
+    height: 1200px;
+    padding: 50px 0;
+    font-family: "Big Shoulders Text", sans-serif;
+}
+
+.works h1 {
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 50px;
+
+}
+
+.work-container {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.left-div,
+.right-div {
+    width: 45%;
+    height: 350px;
+    position: relative;
+}
+
+.left-div img,
+.right-div img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+    border: 1px solid #8f8f8f;
+}
+
+.left-div .overlay,
+.right-div .overlay {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    color: #000000;
+    border-radius: 10px;
+    background-image: linear-gradient(to bottom, rgba(255, 0, 0, 0), rgb(247, 247, 247));
+    display: none;
+    transition: 1s;
+}
+
+.left-div:hover .overlay,
+.right-div:hover .overlay {
+    display: block;
+}
+
+.overlay-text {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
+
+.left-div video,
+.right-div video {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+    border: 1px solid #8f8f8f;
+}
+
+.works h3 {
+    text-align: center;
+    color: #b3b3b3;
+    margin-top: 30px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.works h3:hover {
+    color: #ffffff;
+}
+
+.fade-in-left {
+    animation: fadeinleft;
+    animation-timeline: view();
+}
+
+@keyframes fadeinleft {
+    0% {
+        opacity: 0;
+        transform: translateX(-200px);
+    }
+
+
+    50% {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+
+    100% {
+        opacity: .2;
+        transform: translateX(0px);
+    }
+}
+
+.fade-in-right {
+    animation: fadeinright;
+    animation-timeline: view();
+}
+
+@keyframes fadeinright {
+    0% {
+        opacity: 0;
+        transform: translateX(200px);
+    }
+
+    50% {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+
+    100% {
+        opacity: .2;
+        transform: translateX(0px);
+    }
+}
+
+
+.header {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header video {
+    width: 70vw;
+    border-radius: 20px;
+}
+
+.header img {
+    height: 90vh;
+    border-radius: 20px;
+}
+
+.back-btn {
+    position: fixed;
+    top: 20px;
+    left: 50px;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.back-btn h4 {
+    display: none;
+    transition: .5s;
+    color: #ffffff;
+    font-weight: 300;
+}
+
+.back-btn:hover h4 {
+    display: block;
+}
+
+.back-btn:hover i {
+    transform: translateX(-5px);
+}
+
+#header h3 {
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 420px) {
+    .back-btn {
+        position: fixed;
+        top: 20px;
+        left: 10px;
+        width: 100px;
+        height: 100px;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        text-decoration: none;
+        cursor: pointer;
+    }
+    .work-container {
+        width: 95%;
+        flex-direction: column;
+    }
+
+    .left-div,
+    .right-div {
+        width: 100%;
+        height: 65vw;
+        position: relative;
+    }
+    .header video {
+        width: 95vw;
+        border-radius: 10px;
+    }
+    
+    .header img {
+        width: 95vw;
+        height: auto;
+        border-radius: 10px;
+    }
+}
+
+@media only screen and (max-width: 759px) {
+    .work-container {
+        width: 95%;
+        flex-direction: column;
+    }
+
+    .left-div,
+    .right-div {
+        width: 100%;
+        height: 40vh;
+        position: relative;
+    }
+}

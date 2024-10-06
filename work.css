@@ -1,0 +1,250 @@
+/* -----------------------works section--------------------------- */
+@media only screen and (min-width: 760px){}
+.works {
+    width: 100%;
+    height: 1200px;
+    padding: 50px 0;
+    font-family: "Big Shoulders Text", sans-serif;
+}
+
+.works h1 {
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 50px;
+
+}
+
+.work-container {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.left-div,
+.right-div {
+    width: 45%;
+    height: 350px;
+    position: relative;
+}
+
+.left-div img,
+.right-div img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+    border: 1px solid #8f8f8f;
+}
+
+.left-div .overlay,
+.right-div .overlay {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    color: #000000;
+    border-radius: 10px;
+    background-image: linear-gradient(to bottom, rgba(255, 0, 0, 0), rgb(247, 247, 247));
+    display: none;
+    transition: 1s;
+}
+
+.left-div:hover .overlay,
+.right-div:hover .overlay {
+    display: block;
+}
+
+.overlay-text {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
+.left-div video,
+.right-div video{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+    border: 1px solid #8f8f8f;
+}
+.works h3{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: #b3b3b3;
+    margin-top: 30px;
+    cursor: pointer;
+    transition: .3s;
+}
+.works h3:hover{
+    color: #ffffff;
+}
+a{text-decoration: none;}
+.fade-in-left {
+    animation: fadeinleft;
+    animation-timeline: view();
+}
+
+@keyframes fadeinleft {
+    0% {
+        opacity: 0;
+        transform: translateX(-200px);
+    }
+
+
+    50% {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+
+    100% {
+        opacity: .2;
+        transform: translateX(0px);
+    }
+}
+
+.fade-in-right {
+    animation: fadeinright;
+    animation-timeline: view();
+}
+
+@keyframes fadeinright {
+    0% {
+        opacity: 0;
+        transform: translateX(200px);
+    }
+
+    50% {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+
+    100% {
+        opacity: .2;
+        transform: translateX(0px);
+    }
+}
+
+
+/*---------- mobile screen css --------------------------------------*/
+@media only screen and (max-width: 600px) {
+    .works {
+        width: 100%;
+        height: auto;
+        padding: 50px 0;
+        font-family: "Big Shoulders Text", sans-serif;
+    }
+    .work-container {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+
+    .left-div,
+    .right-div {
+        width: 90%;
+        height: 32vh;
+        position: relative;
+        margin: 0 auto;
+
+    }
+
+    .left-div img,
+    .right-div img {
+        width: 100%;
+        height: 100%;
+        border-radius: 10px;
+        object-fit: cover;
+        border: 1px solid #8f8f8f;
+    }
+
+    .left-div .overlay,
+    .right-div .overlay {
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        color: #000000;
+        border-radius: 10px;
+        background-image: linear-gradient(to bottom, rgba(255, 0, 0, 0), rgb(247, 247, 247));
+        display: none;
+        transition: 1s;
+    }
+
+    .left-div:hover .overlay,
+    .right-div:hover .overlay {
+        display: block;
+    }
+
+    .overlay-text {
+        position: absolute;
+        bottom: 20px;
+        left: 20px;
+    }
+
+    .left-div .overlay,
+    .right-div .overlay .left-div video,
+    .right-div video {
+        width: 100%;
+        height: 100%;
+        border-radius: 10px;
+        object-fit: cover;
+        border: 1px solid #8f8f8f;
+    }
+
+
+    .fade-in-left {
+        animation: fadeinleft;
+        animation-timeline: view();
+    }
+    
+    @keyframes fadeinleft {
+        0% {
+            opacity: 0;
+            transform: translateX(-200px);
+        }
+    
+    
+        40% {
+            opacity: 1;
+            transform: translateX(0px);
+        }
+    
+        100% {
+            opacity: .2;
+            transform: translateX(0px);
+        }
+    }
+    
+    .fade-in-right {
+        animation: fadeinright;
+        animation-timeline: view();
+    }
+    
+    @keyframes fadeinright {
+        0% {
+            opacity: 0;
+            transform: translateX(200px);
+        }
+    
+        40% {
+            opacity: 1;
+            transform: translateX(0px);
+        }
+    
+        100% {
+            opacity: .2;
+            transform: translateX(0px);
+        }
+    }
+    
+}

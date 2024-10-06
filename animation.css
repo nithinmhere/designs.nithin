@@ -1,0 +1,212 @@
+/*-----------main heading animation--------*/
+
+@keyframes zoom-out {
+    0% {
+        opacity: 0;
+        font-size: 125px;
+        transform: translateY(-30px);
+
+    }
+
+    100% {
+        opacity: 1;
+        font-size: 45px;
+        transform: translateY(0px);
+    }
+}
+
+
+
+
+/*-----------Sqaure elements animation--------*/
+
+@keyframes zoom-in-animation-left-1 {
+    from {
+        transform: translateX(600px) scale(.1);
+    }
+
+    to {
+        transform: translateX(0px) scale(1);
+    }
+}
+
+@keyframes zoom-in-animation-right-1 {
+    from {
+        transform: translateX(-600px) scale(.1);
+    }
+
+    to {
+        transform: translateX(0px) scale(1);
+    }
+}
+
+@keyframes zoom-in-animation-left-2 {
+    from {
+        transform: translateX(400px) scale(.1);
+    }
+
+    to {
+        transform: translateX(0px) scale(1);
+    }
+}
+
+@keyframes zoom-in-animation-right-2 {
+    from {
+        transform: translateX(-400px) scale(.1);
+    }
+
+    to {
+        transform: translateX(0px) scale(1);
+    }
+}
+
+@keyframes zoom-in-animation-left-3 {
+    from {
+        transform: translateX(200px) scale(.1);
+    }
+
+    to {
+        transform: translateX(0px) scale(1);
+    }
+}
+
+@keyframes zoom-in-animation-right-3 {
+    from {
+        transform: translateX(-200px) scale(.1);
+    }
+
+    to {
+        transform: translateX(0px) scale(1);
+    }
+}
+
+
+
+/*----------- down arrow animation------------*/
+
+@keyframes move-down {
+    from {
+        opacity: 0;
+        transform: translateY(-100px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+.fade-in-up{
+    animation: fadeinup;
+    animation-timeline: view();
+}
+@keyframes fadeinup{
+    0%{
+        opacity: 0;
+        transform: translateY(100px);
+    }
+    60%{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+    100%{
+        opacity: 0;
+    }
+}
+@media only screen and (max-width: 600px) {
+
+    /*-----------main heading animation--------*/
+    @keyframes zoom-out {
+        0% {
+            opacity: 0;
+            font-size: 125px;
+            transform: translateY(-30px);
+
+        }
+
+        100% {
+            opacity: 1;
+            font-size: 40px;
+            transform: translateY(0px);
+        }
+    }
+
+
+    /*-----------Square elements animation--------*/
+
+    @keyframes zoom-in-animation-left-1 {
+        from {
+            transform: translateX(300px) scale(.1);
+        }
+
+        to {
+            transform: translateX(0px) scale(1);
+        }
+    }
+
+    @keyframes zoom-in-animation-right-1 {
+        from {
+            transform: translateX(-300px) scale(.1);
+        }
+
+        to {
+            transform: translateX(0px) scale(1);
+        }
+    }
+
+    @keyframes zoom-in-animation-left-2 {
+        from {
+            transform: translateX(150px) scale(.1);
+        }
+
+        to {
+            transform: translateX(0px) scale(1);
+        }
+    }
+
+    @keyframes zoom-in-animation-right-2 {
+        from {
+            transform: translateX(-150px) scale(.1);
+        }
+
+        to {
+            transform: translateX(0px) scale(1);
+        }
+    }
+
+    @keyframes zoom-in-animation-left-3 {
+        from {
+            transform: translateX(100px) scale(.1);
+        }
+
+        to {
+            transform: translateX(0px) scale(1);
+        }
+    }
+
+    @keyframes zoom-in-animation-right-3 {
+        from {
+            transform: translateX(-200px) scale(.1);
+        }
+
+        to {
+            transform: translateX(0px) scale(1);
+        }
+    }
+
+
+
+    /*----------- down arrow animation------------*/
+
+    @keyframes move-down {
+        from {
+            opacity: 0;
+            transform: translateY(-100px);
+        }
+
+        to {
+            opacity: 1;
+            transform: translateY(0px);
+        }
+    }
+}
